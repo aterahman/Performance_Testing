@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.2">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Dashboard_Homepage_Test_Plan" enabled="true">
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="token" elementType="Argument">
+            <stringProp name="Argument.name">token</stringProp>
+            <stringProp name="Argument.value">eyJraWQiOiJSWjVxekdQNHFNYnl0SG1uXC9XcitONXA0cVgzOVBFQUpIWEw5SFpvR2tWVT0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoicDQ1ejQydTNtY2Z5aFVpZ0k3aFg3QSIsInN1YiI6IjljM2FjYjM1LWZhYWYtNDg3ZS05YmZjLTZlMjIxN2EzYThjZCIsImNvZ25pdG86Z3JvdXBzIjpbInVzLWVhc3QtMl9xb05jNTdxajhfRGVsb2l0dGUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMi5hbWF6b25hd3MuY29tXC91cy1lYXN0LTJfcW9OYzU3cWo4IiwiY3VzdG9tOm9yZ19pZCI6IjExMjIiLCJjdXN0b206am9iX3RpdGxlIjoiREMgU0RFVCBJIiwiY3VzdG9tOmxvY2F0aW9uIjoiVVMgLSBCZW5nYWx1cnUiLCJpZGVudGl0aWVzIjpbeyJ1c2VySWQiOiJrc1J0YVlSU0hJcWNob2J0NklQa25lSU1DTmc0bGZROE1Wbm5yWDllNmZRIiwicHJvdmlkZXJOYW1lIjoiRGVsb2l0dGUiLCJwcm92aWRlclR5cGUiOiJPSURDIiwiaXNzdWVyIjpudWxsLCJwcmltYXJ5IjoidHJ1ZSIsImRhdGVDcmVhdGVkIjoiMTY5NTYyNzg4NDE1MiJ9XSwiYXV0aF90aW1lIjoxNzAyMDMzODA4LCJjdXN0b206ZW1haWxzIjoie1wicHJpbWFyeV9lbWFpbFwiOiBcImF0ZXJhaG1hbkBkZWxvaXR0ZS5jb21cIiwgXCJzZWNvbmRhcnlfZW1haWxzXCI6IFtdfSIsImV4cCI6MTcwMjAzNzQwOCwiaWF0IjoxNzAyMDMzODA5LCJqdGkiOiIyZjZjZjc5Mi00M2EwLTQ0MWMtYWVjZC1hY2ZjODBlOTRlOGQiLCJlbWFpbCI6ImF0ZXJhaG1hbkBkZWxvaXR0ZS5jb20iLCJvcmdhbmlzYXRpb25fZGV0YWlscyI6Ilt7XCJuYW1lXCI6IFwiSGFzaGVkSW5cIiwgXCJ0aW1lem9uZVwiOiBcIkFudGFyY3RpY2FcL1NvdXRoX1BvbGVcIiwgXCJ0ZW5hbnRfaWRcIjogXCIxMTIyXCIsIFwiYWxsb3dlZF9hcHBzXCI6IFtcInB1bHNlXCIsIFwiaHUtZXZhbHVhdGlvblwiLCBcInZvbHVudGVlclwiLCBcInJld2FyZHNcIiwgXCJ0aW1lc2hlZXRcIiwgXCJhbGxvY2F0aW9uXCIsIFwiaG9tZVwiLCBcImh1LWF1dG9tYXRpb25cIiwgXCJsZWF2ZXNcIiwgXCJkaWdpdGFsYXNzZXRcIiwgXCJwb2RzXCIsIFwiY3VtdWx1c1wiLCBcImhpcmVcIiwgXCJjYW1cIiwgXCJydFwiXSwgXCJjdXJyZW5jeVwiOiBcIlVTRFwiLCBcImxvZ29fczNfb2JqZWN0X3VybFwiOiBcImh0dHBzOlwvXC9kbmEtc3RhZ2luZy1yZXNvdXJjZS1idWNrZXQuczMudXMtZWFzdC0yLmFtYXpvbmF3cy5jb21cL29yZ19kaXJlY3RvcnlcL29yZ2FuaXNhdGlvbl9sb2dvc1wvaGFzaGVkaW4ucG5nXCJ9XSIsImN1c3RvbTp1dWlkIjoiYmZlYmIxODctMDc0Ni00ODQzLWE3MDEtYmI4ZTNiZmRjN2Q4IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjb2duaXRvOnVzZXJuYW1lIjoiRGVsb2l0dGVfa3NSdGFZUlNISXFjaG9idDZJUGtuZUlNQ05nNGxmUThNVm5uclg5ZTZmUSIsIm5vbmNlIjoiLThGTWVqdnFmd05xbUpFTkV2VTNrSHZMclZ6dXFkdTl2alVRcXpmRGdTNjcxdldfTm0zNWNXZ2ZpMWtuckVSRWJzNVRzTWpmWTdvczJsdHdEVktndGI2a3JLM044WnAtSUNfdFBCTHBMQWZDVmdIaVJhZ2RyVGJ0dWhvSGlpTm51ajZEbEc3a25zc3hwSEJTU1g0TzBRNVBnRmM0VWtQWVhRMm4tZDJzUTBRIiwicGljdHVyZSI6Imh0dHBzOlwvXC9ncmFwaC5taWNyb3NvZnQuY29tXC92MS4wXC9tZVwvcGhvdG9cLyR2YWx1ZSIsIm9yaWdpbl9qdGkiOiJjYTA4ODdlYy05NGI2LTQ4NDktYThiOS1kNjM3ZGZjNDI4MWUiLCJhdWQiOiIyOTBrMjQzdGt1bDF1M2Z0YXB2YWRiOWEwZSIsInRva2VuX3VzZSI6ImlkIiwibmFtZSI6IlJhaG1hbiwgQXRlZXEgVXIiLCJwcmltYXJ5X3RlbmFudCI6IjExMjIiLCJzZXNzaW9uX3RlbmFudCI6IjExMjIifQ.Sf_-BPU2TovZIdGIgDUe7InxNGHNeVZB0Z_HAwvm1a6PrW4DqJRlNpCiba1EcQZBHK-duuMD1fxUhJsuq0CJxBVh13uODD05-ss7blVRevke4LPjhxTpCN__STfioEE81bZwvhJ5ISJiVk9MEClzDjgT5LUwg5bILBcERuOZgqZv6UXy7qRr9ikHPE9cy7_jSxWI1ut-JdUQTFswW32ZEBCCdrD97DEfcPg9oUkO7HhE07b7QD1RSaZey0GlrY3KjS8kVeDydWcyS3MmpUPKRrQjYjgrRG3bubrNXQAVDV7utSRnFNLXQsVBBQBpAhfl1-j2zAo2lHvTX1rPrdl1rQ</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Dashboard-10-users" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.delayedStart">false</boolProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="GraphQLHTTPSamplerGui" testclass="HTTPSamplerProxy" testname="Myself" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument" enabled="true">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&quot;operationName&quot;:null,&quot;variables&quot;:{
+  &quot;conditions&quot;: {
+    &quot;email__iexact&quot;: &quot;aterahman@deloitte.com&quot;
+  }
+},&quot;query&quot;:&quot;query myself($conditions: GenericScalar) {\n  getUser(conditions: $conditions) {\n    id\n    email\n    userPrefersLocation {\n      id\n      preferredWorkLocation {\n        city\n        identifier\n        __typename\n      }\n      __typename\n    }\n    basicProfile {\n      id\n      name\n      profilePic\n      __typename\n    }\n    detailedProfile {\n      id\n      delEmpId\n      otherAttrs\n      designation {\n        id\n        name\n        __typename\n      }\n      band {\n        id\n        name\n        level\n        __typename\n      }\n      manager {\n        id\n        email\n        basicProfile {\n          id\n          name\n          profilePic\n          __typename\n        }\n        detailedProfile {\n          id\n          designation {\n            id\n            name\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      managerLastUpdatedOn\n      skillsLastUpdatedOn\n      reporteeLastUpdatedOn\n      userSkills {\n        id\n        skill {\n          id\n          name\n          skillCategory {\n            category\n            __typename\n          }\n          __typename\n        }\n        isActive\n        level\n        subSkillCategory\n        isSuggested\n        __typename\n      }\n      capabilitiesLastUpdatedOn\n      capabilities {\n        id\n        name\n        isParent\n        childCapabilities {\n          id\n          name\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    userProjects {\n      id\n      podName\n      projectName\n      allocationStartDate\n      __typename\n    }\n    __typename\n  }\n}&quot;}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">apis.dna-staging.hashedin.com</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">/dashboard/gql/</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <stringProp name="GraphQLHTTPSampler.operationName"></stringProp>
+          <stringProp name="GraphQLHTTPSampler.query">query myself($conditions: GenericScalar) {
+  getUser(conditions: $conditions) {
+    id
+    email
+    userPrefersLocation {
+      id
+      preferredWorkLocation {
+        city
+        identifier
+        __typename
+      }
+      __typename
+    }
+    basicProfile {
+      id
+      name
+      profilePic
+      __typename
+    }
+    detailedProfile {
+      id
+      delEmpId
+      otherAttrs
+      designation {
+        id
+        name
+        __typename
+      }
+      band {
+        id
+        name
+        level
+        __typename
+      }
+      manager {
+        id
+        email
+        basicProfile {
+          id
+          name
+          profilePic
+          __typename
+        }
+        detailedProfile {
+          id
+          designation {
+            id
+            name
+            __typename
+          }
+          __typename
+        }
+        __typename
+      }
+      managerLastUpdatedOn
+      skillsLastUpdatedOn
+      reporteeLastUpdatedOn
+      userSkills {
+        id
+        skill {
+          id
+          name
+          skillCategory {
+            category
+            __typename
+          }
+          __typename
+        }
+        isActive
+        level
+        subSkillCategory
+        isSuggested
+        __typename
+      }
+      capabilitiesLastUpdatedOn
+      capabilities {
+        id
+        name
+        isParent
+        childCapabilities {
+          id
+          name
+          __typename
+        }
+        __typename
+      }
+      __typename
+    }
+    userProjects {
+      id
+      podName
+      projectName
+      allocationStartDate
+      __typename
+    }
+    __typename
+  }
+}</stringProp>
+          <stringProp name="GraphQLHTTPSampler.variables">{
+  &quot;conditions&quot;: {
+    &quot;email__iexact&quot;: &quot;aterahman@deloitte.com&quot;
+  }
+}</stringProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+          <collectionProp name="HeaderManager.headers">
+            <elementProp name="" elementType="Header">
+              <stringProp name="Header.name">x-api-token</stringProp>
+              <stringProp name="Header.value">${token}</stringProp>
+            </elementProp>
+            <elementProp name="" elementType="Header">
+              <stringProp name="Header.name">Content-type</stringProp>
+              <stringProp name="Header.value">application/json</stringProp>
+            </elementProp>
+          </collectionProp>
+        </HeaderManager>
+        <hashTree/>
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename">C:\Users\aterahman\Documents\Performance-Testing\Myself-api-results.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename">C:\Users\aterahman\Documents\Performance-Testing\Dashboard-getUser-api-results.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Dashboard-25-users" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">25</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.delayedStart">false</boolProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="GraphQLHTTPSamplerGui" testclass="HTTPSamplerProxy" testname="GetUser" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument" enabled="true">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&quot;operationName&quot;:null,&quot;variables&quot;:{
+  &quot;conditions&quot;: {
+    &quot;uuid&quot;: &quot;bfebb187-0746-4843-a701-bb8e3bfdc7d8&quot;
+  }
+},&quot;query&quot;:&quot;query getUser($conditions: GenericScalar) {\n  getUser(conditions: $conditions) {\n    id\n    email\n    userPermissions\n    basicProfile {\n      id\n      name\n      profilePic\n      __typename\n    }\n    detailedProfile {\n      id\n      exitDate\n      manager {\n        id\n        email\n        detailedProfile {\n          id\n          exitDate\n          __typename\n        }\n        __typename\n      }\n      band {\n        id\n        name\n        level\n        __typename\n      }\n      department {\n        id\n        name\n        __typename\n      }\n      __typename\n    }\n    userProjects {\n      id\n      podName\n      allocationStartDate\n      __typename\n    }\n    orgName {\n      id\n      name\n      __typename\n    }\n    __typename\n  }\n}&quot;}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">apis.dna-staging.hashedin.com</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">/dashboard/gql/</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <stringProp name="GraphQLHTTPSampler.operationName"></stringProp>
+          <stringProp name="GraphQLHTTPSampler.query">query getUser($conditions: GenericScalar) {
+  getUser(conditions: $conditions) {
+    id
+    email
+    userPermissions
+    basicProfile {
+      id
+      name
+      profilePic
+      __typename
+    }
+    detailedProfile {
+      id
+      exitDate
+      manager {
+        id
+        email
+        detailedProfile {
+          id
+          exitDate
+          __typename
+        }
+        __typename
+      }
+      band {
+        id
+        name
+        level
+        __typename
+      }
+      department {
+        id
+        name
+        __typename
+      }
+      __typename
+    }
+    userProjects {
+      id
+      podName
+      allocationStartDate
+      __typename
+    }
+    orgName {
+      id
+      name
+      __typename
+    }
+    __typename
+  }
+}</stringProp>
+          <stringProp name="GraphQLHTTPSampler.variables">{
+  &quot;conditions&quot;: {
+    &quot;uuid&quot;: &quot;bfebb187-0746-4843-a701-bb8e3bfdc7d8&quot;
+  }
+}</stringProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+          <collectionProp name="HeaderManager.headers">
+            <elementProp name="" elementType="Header">
+              <stringProp name="Header.name">x-api-token</stringProp>
+              <stringProp name="Header.value">${token}</stringProp>
+            </elementProp>
+            <elementProp name="" elementType="Header">
+              <stringProp name="Header.name">Content-type</stringProp>
+              <stringProp name="Header.value">application/json</stringProp>
+            </elementProp>
+          </collectionProp>
+        </HeaderManager>
+        <hashTree/>
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename">C:\Users\aterahman\Documents\Performance-Testing\Dashboard-getUser-api-results.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>
