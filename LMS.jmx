@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.2">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="LMS-test-plan" enabled="true">
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="token" elementType="Argument">
+            <stringProp name="Argument.name">token</stringProp>
+            <stringProp name="Argument.value">eyJraWQiOiJSWjVxekdQNHFNYnl0SG1uXC9XcitONXA0cVgzOVBFQUpIWEw5SFpvR2tWVT0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoiZElyRTdxeGJUeDN5SHhqNnhBUlVXUSIsInN1YiI6IjljM2FjYjM1LWZhYWYtNDg3ZS05YmZjLTZlMjIxN2EzYThjZCIsImNvZ25pdG86Z3JvdXBzIjpbInVzLWVhc3QtMl9xb05jNTdxajhfRGVsb2l0dGUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMi5hbWF6b25hd3MuY29tXC91cy1lYXN0LTJfcW9OYzU3cWo4IiwiY3VzdG9tOm9yZ19pZCI6IjExMjIiLCJjdXN0b206am9iX3RpdGxlIjoiREMgU0RFVCBJIiwiY3VzdG9tOmxvY2F0aW9uIjoiVVMgLSBCZW5nYWx1cnUiLCJpZGVudGl0aWVzIjpbeyJ1c2VySWQiOiJrc1J0YVlSU0hJcWNob2J0NklQa25lSU1DTmc0bGZROE1Wbm5yWDllNmZRIiwicHJvdmlkZXJOYW1lIjoiRGVsb2l0dGUiLCJwcm92aWRlclR5cGUiOiJPSURDIiwiaXNzdWVyIjpudWxsLCJwcmltYXJ5IjoidHJ1ZSIsImRhdGVDcmVhdGVkIjoiMTY5NTYyNzg4NDE1MiJ9XSwiYXV0aF90aW1lIjoxNzAyMjYwNzUzLCJjdXN0b206ZW1haWxzIjoie1wicHJpbWFyeV9lbWFpbFwiOiBcImF0ZXJhaG1hbkBkZWxvaXR0ZS5jb21cIiwgXCJzZWNvbmRhcnlfZW1haWxzXCI6IFtdfSIsImV4cCI6MTcwMjI2NDM1MywiaWF0IjoxNzAyMjYwNzU3LCJqdGkiOiJmOGJjYzY3MS04Njc4LTRmNTEtYmM2Mi1mMmY3YTNlNzVlOTMiLCJlbWFpbCI6ImF0ZXJhaG1hbkBkZWxvaXR0ZS5jb20iLCJvcmdhbmlzYXRpb25fZGV0YWlscyI6Ilt7XCJuYW1lXCI6IFwiSGFzaGVkSW5cIiwgXCJ0aW1lem9uZVwiOiBcIkFudGFyY3RpY2FcL1NvdXRoX1BvbGVcIiwgXCJ0ZW5hbnRfaWRcIjogXCIxMTIyXCIsIFwiYWxsb3dlZF9hcHBzXCI6IFtcInB1bHNlXCIsIFwiaHUtZXZhbHVhdGlvblwiLCBcInZvbHVudGVlclwiLCBcInJld2FyZHNcIiwgXCJ0aW1lc2hlZXRcIiwgXCJhbGxvY2F0aW9uXCIsIFwiaG9tZVwiLCBcImh1LWF1dG9tYXRpb25cIiwgXCJsZWF2ZXNcIiwgXCJkaWdpdGFsYXNzZXRcIiwgXCJwb2RzXCIsIFwiY3VtdWx1c1wiLCBcImhpcmVcIiwgXCJjYW1cIiwgXCJydFwiXSwgXCJjdXJyZW5jeVwiOiBcIlVTRFwiLCBcImxvZ29fczNfb2JqZWN0X3VybFwiOiBcImh0dHBzOlwvXC9kbmEtc3RhZ2luZy1yZXNvdXJjZS1idWNrZXQuczMudXMtZWFzdC0yLmFtYXpvbmF3cy5jb21cL29yZ19kaXJlY3RvcnlcL29yZ2FuaXNhdGlvbl9sb2dvc1wvaGFzaGVkaW4ucG5nXCJ9XSIsImN1c3RvbTp1dWlkIjoiYmZlYmIxODctMDc0Ni00ODQzLWE3MDEtYmI4ZTNiZmRjN2Q4IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjb2duaXRvOnVzZXJuYW1lIjoiRGVsb2l0dGVfa3NSdGFZUlNISXFjaG9idDZJUGtuZUlNQ05nNGxmUThNVm5uclg5ZTZmUSIsIm5vbmNlIjoiR3o1ZXpkSnRWMGljNnpCSXlVbTJURnBFSkpyU2hNa0J5WUFKblA5S01UeTc3b3hraVlnOXhkbzExVXlNRTVZN19jU3pFY05SaHVlREZWN1FvenQ3NmJRcUdySWhpdkszT1ZYQ0lVbndzbGlBTUR4V1E0blpmV0hMUWg1RC1zWU1RQXlKODN0MmRXZzQ5WFBsbVl1SWFBV3ZrS3NLNE82dDhSR0RRQ05zRWFFIiwicGljdHVyZSI6Imh0dHBzOlwvXC9ncmFwaC5taWNyb3NvZnQuY29tXC92MS4wXC9tZVwvcGhvdG9cLyR2YWx1ZSIsIm9yaWdpbl9qdGkiOiIzYjYwYTM2ZC1lMTc5LTQzMTQtOTc2Ny01MGVjNzI1ZTcwOWEiLCJhdWQiOiIyOTBrMjQzdGt1bDF1M2Z0YXB2YWRiOWEwZSIsInRva2VuX3VzZSI6ImlkIiwibmFtZSI6IlJhaG1hbiwgQXRlZXEgVXIiLCJwcmltYXJ5X3RlbmFudCI6IjExMjIiLCJzZXNzaW9uX3RlbmFudCI6IjExMjIifQ.SJVBhIVKWqbNEq4mCIbhGp4F_oXw39wKlCPqb65me4kiOdFeX3AMnyDu8_MapxpG7aOZUK73iylOA6u164E619HKLFSaOmQ2XQ4OYFmLfCF1NYqYodrwbQkFs15Ky7hcXguVXf48XtvYu9m2xa67yuApgYxn5_Luhzkd-mF_2jhuS_m5Tr0TsbMBSs1iRhswyR8-WlmKoX1HfAY2LuUhP2Gt0tgo6iWM8uBE04PtxYmyMrGuxGDjsqjwYUon_l-Diw-I45RkM4Qer9oLQyyXVfTZHYdMDg_aHjFcF3ARsW2kK1Wd65U8mrdYTwl8HxLGYnf6MpPzlHoI2ornbw6Vfw</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+    </TestPlan>
+    <hashTree>
+      <com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroup guiclass="com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroupGui" testclass="com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroup" testname="Dashboard-200" enabled="true">
+        <elementProp name="ThreadGroup.main_controller" elementType="com.blazemeter.jmeter.control.VirtualUserController"/>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <stringProp name="TargetLevel">200</stringProp>
+        <stringProp name="RampUp">20</stringProp>
+        <stringProp name="Steps">10</stringProp>
+        <stringProp name="Hold">15</stringProp>
+        <stringProp name="LogFilename"></stringProp>
+        <stringProp name="Iterations"></stringProp>
+        <stringProp name="Unit">S</stringProp>
+      </com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="GraphQLHTTPSamplerGui" testclass="HTTPSamplerProxy" testname="GraphQL HTTP Request" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument" enabled="true">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&quot;operationName&quot;:null,&quot;variables&quot;:{
+  &quot;email&quot;: &quot;aterahman@deloitte.com&quot;
+},&quot;query&quot;:&quot;query allUsers($email: String!) {\n  allUsers(email_Iexact: $email, isActive: true) {\n    edges {\n      node {\n        name\n        dateJoined\n        id\n      }\n    }\n  }\n}&quot;}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">apis.dna-staging.hashedin.com</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">/leaves/gql/</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <stringProp name="GraphQLHTTPSampler.operationName"></stringProp>
+          <stringProp name="GraphQLHTTPSampler.query">
+query allUsers($email: String!) {
+  allUsers(email_Iexact: $email, isActive: true) {
+    edges {
+      node {
+        name
+        dateJoined
+        id
+      }
+    }
+  }
+}</stringProp>
+          <stringProp name="GraphQLHTTPSampler.variables">{
+  &quot;email&quot;: &quot;aterahman@deloitte.com&quot;
+}</stringProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+          <collectionProp name="HeaderManager.headers">
+            <elementProp name="" elementType="Header">
+              <stringProp name="Header.name">x-api-token</stringProp>
+              <stringProp name="Header.value">${token}</stringProp>
+            </elementProp>
+            <elementProp name="" elementType="Header">
+              <stringProp name="Header.name">Content-type</stringProp>
+              <stringProp name="Header.value">application/json</stringProp>
+            </elementProp>
+          </collectionProp>
+        </HeaderManager>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename">C:\Users\aterahman\Documents\Performance-Testing\LMS-dahboard-results.jmx</stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>
