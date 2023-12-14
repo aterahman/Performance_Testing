@@ -9,7 +9,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="token" elementType="Argument">
             <stringProp name="Argument.name">token</stringProp>
-            <stringProp name="Argument.value">eyJraWQiOiJSWjVxekdQNHFNYnl0SG1uXC9XcitONXA0cVgzOVBFQUpIWEw5SFpvR2tWVT0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoicDQ1ejQydTNtY2Z5aFVpZ0k3aFg3QSIsInN1YiI6IjljM2FjYjM1LWZhYWYtNDg3ZS05YmZjLTZlMjIxN2EzYThjZCIsImNvZ25pdG86Z3JvdXBzIjpbInVzLWVhc3QtMl9xb05jNTdxajhfRGVsb2l0dGUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMi5hbWF6b25hd3MuY29tXC91cy1lYXN0LTJfcW9OYzU3cWo4IiwiY3VzdG9tOm9yZ19pZCI6IjExMjIiLCJjdXN0b206am9iX3RpdGxlIjoiREMgU0RFVCBJIiwiY3VzdG9tOmxvY2F0aW9uIjoiVVMgLSBCZW5nYWx1cnUiLCJpZGVudGl0aWVzIjpbeyJ1c2VySWQiOiJrc1J0YVlSU0hJcWNob2J0NklQa25lSU1DTmc0bGZROE1Wbm5yWDllNmZRIiwicHJvdmlkZXJOYW1lIjoiRGVsb2l0dGUiLCJwcm92aWRlclR5cGUiOiJPSURDIiwiaXNzdWVyIjpudWxsLCJwcmltYXJ5IjoidHJ1ZSIsImRhdGVDcmVhdGVkIjoiMTY5NTYyNzg4NDE1MiJ9XSwiYXV0aF90aW1lIjoxNzAyMDMzODA4LCJjdXN0b206ZW1haWxzIjoie1wicHJpbWFyeV9lbWFpbFwiOiBcImF0ZXJhaG1hbkBkZWxvaXR0ZS5jb21cIiwgXCJzZWNvbmRhcnlfZW1haWxzXCI6IFtdfSIsImV4cCI6MTcwMjAzNzQwOCwiaWF0IjoxNzAyMDMzODA5LCJqdGkiOiIyZjZjZjc5Mi00M2EwLTQ0MWMtYWVjZC1hY2ZjODBlOTRlOGQiLCJlbWFpbCI6ImF0ZXJhaG1hbkBkZWxvaXR0ZS5jb20iLCJvcmdhbmlzYXRpb25fZGV0YWlscyI6Ilt7XCJuYW1lXCI6IFwiSGFzaGVkSW5cIiwgXCJ0aW1lem9uZVwiOiBcIkFudGFyY3RpY2FcL1NvdXRoX1BvbGVcIiwgXCJ0ZW5hbnRfaWRcIjogXCIxMTIyXCIsIFwiYWxsb3dlZF9hcHBzXCI6IFtcInB1bHNlXCIsIFwiaHUtZXZhbHVhdGlvblwiLCBcInZvbHVudGVlclwiLCBcInJld2FyZHNcIiwgXCJ0aW1lc2hlZXRcIiwgXCJhbGxvY2F0aW9uXCIsIFwiaG9tZVwiLCBcImh1LWF1dG9tYXRpb25cIiwgXCJsZWF2ZXNcIiwgXCJkaWdpdGFsYXNzZXRcIiwgXCJwb2RzXCIsIFwiY3VtdWx1c1wiLCBcImhpcmVcIiwgXCJjYW1cIiwgXCJydFwiXSwgXCJjdXJyZW5jeVwiOiBcIlVTRFwiLCBcImxvZ29fczNfb2JqZWN0X3VybFwiOiBcImh0dHBzOlwvXC9kbmEtc3RhZ2luZy1yZXNvdXJjZS1idWNrZXQuczMudXMtZWFzdC0yLmFtYXpvbmF3cy5jb21cL29yZ19kaXJlY3RvcnlcL29yZ2FuaXNhdGlvbl9sb2dvc1wvaGFzaGVkaW4ucG5nXCJ9XSIsImN1c3RvbTp1dWlkIjoiYmZlYmIxODctMDc0Ni00ODQzLWE3MDEtYmI4ZTNiZmRjN2Q4IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjb2duaXRvOnVzZXJuYW1lIjoiRGVsb2l0dGVfa3NSdGFZUlNISXFjaG9idDZJUGtuZUlNQ05nNGxmUThNVm5uclg5ZTZmUSIsIm5vbmNlIjoiLThGTWVqdnFmd05xbUpFTkV2VTNrSHZMclZ6dXFkdTl2alVRcXpmRGdTNjcxdldfTm0zNWNXZ2ZpMWtuckVSRWJzNVRzTWpmWTdvczJsdHdEVktndGI2a3JLM044WnAtSUNfdFBCTHBMQWZDVmdIaVJhZ2RyVGJ0dWhvSGlpTm51ajZEbEc3a25zc3hwSEJTU1g0TzBRNVBnRmM0VWtQWVhRMm4tZDJzUTBRIiwicGljdHVyZSI6Imh0dHBzOlwvXC9ncmFwaC5taWNyb3NvZnQuY29tXC92MS4wXC9tZVwvcGhvdG9cLyR2YWx1ZSIsIm9yaWdpbl9qdGkiOiJjYTA4ODdlYy05NGI2LTQ4NDktYThiOS1kNjM3ZGZjNDI4MWUiLCJhdWQiOiIyOTBrMjQzdGt1bDF1M2Z0YXB2YWRiOWEwZSIsInRva2VuX3VzZSI6ImlkIiwibmFtZSI6IlJhaG1hbiwgQXRlZXEgVXIiLCJwcmltYXJ5X3RlbmFudCI6IjExMjIiLCJzZXNzaW9uX3RlbmFudCI6IjExMjIifQ.Sf_-BPU2TovZIdGIgDUe7InxNGHNeVZB0Z_HAwvm1a6PrW4DqJRlNpCiba1EcQZBHK-duuMD1fxUhJsuq0CJxBVh13uODD05-ss7blVRevke4LPjhxTpCN__STfioEE81bZwvhJ5ISJiVk9MEClzDjgT5LUwg5bILBcERuOZgqZv6UXy7qRr9ikHPE9cy7_jSxWI1ut-JdUQTFswW32ZEBCCdrD97DEfcPg9oUkO7HhE07b7QD1RSaZey0GlrY3KjS8kVeDydWcyS3MmpUPKRrQjYjgrRG3bubrNXQAVDV7utSRnFNLXQsVBBQBpAhfl1-j2zAo2lHvTX1rPrdl1rQ</stringProp>
+            <stringProp name="Argument.value">eyJraWQiOiJSWjVxekdQNHFNYnl0SG1uXC9XcitONXA0cVgzOVBFQUpIWEw5SFpvR2tWVT0iLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoiQms0WEpKd1dobEQ2Qk0xLTVPb0ZZdyIsInN1YiI6IjljM2FjYjM1LWZhYWYtNDg3ZS05YmZjLTZlMjIxN2EzYThjZCIsImNvZ25pdG86Z3JvdXBzIjpbInVzLWVhc3QtMl9xb05jNTdxajhfRGVsb2l0dGUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMi5hbWF6b25hd3MuY29tXC91cy1lYXN0LTJfcW9OYzU3cWo4IiwiY3VzdG9tOm9yZ19pZCI6IjExMjIiLCJjdXN0b206am9iX3RpdGxlIjoiREMgU0RFVCBJIiwiY3VzdG9tOmxvY2F0aW9uIjoiVVMgLSBCZW5nYWx1cnUiLCJpZGVudGl0aWVzIjpbeyJ1c2VySWQiOiJrc1J0YVlSU0hJcWNob2J0NklQa25lSU1DTmc0bGZROE1Wbm5yWDllNmZRIiwicHJvdmlkZXJOYW1lIjoiRGVsb2l0dGUiLCJwcm92aWRlclR5cGUiOiJPSURDIiwiaXNzdWVyIjpudWxsLCJwcmltYXJ5IjoidHJ1ZSIsImRhdGVDcmVhdGVkIjoiMTY5NTYyNzg4NDE1MiJ9XSwiYXV0aF90aW1lIjoxNzAyNTIxNjkzLCJjdXN0b206ZW1haWxzIjoie1wicHJpbWFyeV9lbWFpbFwiOiBcImF0ZXJhaG1hbkBkZWxvaXR0ZS5jb21cIiwgXCJzZWNvbmRhcnlfZW1haWxzXCI6IFtdfSIsImV4cCI6MTcwMjUyNTI5MywiaWF0IjoxNzAyNTIxNjk3LCJqdGkiOiI2ZDkwMGU1ZS1kZmJlLTQwYWMtOTBlYS1iZTk2MTIyNGQ1ZDAiLCJlbWFpbCI6ImF0ZXJhaG1hbkBkZWxvaXR0ZS5jb20iLCJvcmdhbmlzYXRpb25fZGV0YWlscyI6Ilt7XCJuYW1lXCI6IFwiSGFzaGVkSW5cIiwgXCJ0aW1lem9uZVwiOiBcIkFudGFyY3RpY2FcL1NvdXRoX1BvbGVcIiwgXCJ0ZW5hbnRfaWRcIjogXCIxMTIyXCIsIFwiYWxsb3dlZF9hcHBzXCI6IFtcInB1bHNlXCIsIFwiaHUtZXZhbHVhdGlvblwiLCBcInZvbHVudGVlclwiLCBcInJld2FyZHNcIiwgXCJ0aW1lc2hlZXRcIiwgXCJhbGxvY2F0aW9uXCIsIFwiaG9tZVwiLCBcImh1LWF1dG9tYXRpb25cIiwgXCJsZWF2ZXNcIiwgXCJkaWdpdGFsYXNzZXRcIiwgXCJwb2RzXCIsIFwiY3VtdWx1c1wiLCBcImhpcmVcIiwgXCJjYW1cIiwgXCJydFwiXSwgXCJjdXJyZW5jeVwiOiBcIlVTRFwiLCBcImxvZ29fczNfb2JqZWN0X3VybFwiOiBcImh0dHBzOlwvXC9kbmEtc3RhZ2luZy1yZXNvdXJjZS1idWNrZXQuczMudXMtZWFzdC0yLmFtYXpvbmF3cy5jb21cL29yZ19kaXJlY3RvcnlcL29yZ2FuaXNhdGlvbl9sb2dvc1wvaGFzaGVkaW4ucG5nXCJ9XSIsImN1c3RvbTp1dWlkIjoiYmZlYmIxODctMDc0Ni00ODQzLWE3MDEtYmI4ZTNiZmRjN2Q4IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjb2duaXRvOnVzZXJuYW1lIjoiRGVsb2l0dGVfa3NSdGFZUlNISXFjaG9idDZJUGtuZUlNQ05nNGxmUThNVm5uclg5ZTZmUSIsIm5vbmNlIjoibmFobWhpZEQtQjJYZTVXbVVnenR6QmhQYTVJRTdxd0FrSldiZmoySVlYOGt0WXZFVmowMEV6dFJxTl9Qd1FHSlh4Z3Nhb1lwN19aVDNNWVJ0Z2dGbi1RVWstLWdYSjg1a3Znb3JPd0ROMjZkaEhmUWNqUklJOHBOTWlqYWhhdWdQTlI4UHQzcXNkbGFENTBQM2ktT2dIZEVMVTBMdkxpbDE4YzlmSG9idjV3IiwicGljdHVyZSI6Imh0dHBzOlwvXC9ncmFwaC5taWNyb3NvZnQuY29tXC92MS4wXC9tZVwvcGhvdG9cLyR2YWx1ZSIsIm9yaWdpbl9qdGkiOiIyMGM3NDMzMC0wMTQyLTQ0YWQtYWQxZi0xYWJhNTNhMzJlMzEiLCJhdWQiOiIyOTBrMjQzdGt1bDF1M2Z0YXB2YWRiOWEwZSIsInRva2VuX3VzZSI6ImlkIiwibmFtZSI6IlJhaG1hbiwgQXRlZXEgVXIiLCJwcmltYXJ5X3RlbmFudCI6IjExMjIiLCJzZXNzaW9uX3RlbmFudCI6IjExMjIifQ.qOH1CNWOuvtlBGxmOlg9KjN0nbIviCM2UkK2w1_NWI4Ep-3obAff4TpJR27_TK4oyDTBbShHei1PEil38WaEcT1UCMijykMnI_M_5qGygGZqc_tGzKUdwjFpUX83OWURnY5u1T4IVvslMcHzycHG68B4Kw0OVJmIAeziFnuO0cRzLk4Dlrazxu1WE06UGPCmQId7vEFnDTPNlfyjrMZbq7tw0FIquv2ApGtV4KrNPSIKqCCko0PMOkhChkTgc_7tvnzeUtfwUfgx_6J5tCRSrb-8CGHE1nISq7yUau50EnrD3GG0Szg5lVxsJWTD9Dmtj-sBVrw7io-lZesYd0_gbQ</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -214,7 +214,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">C:\Users\aterahman\Documents\Performance-Testing\Myself-api-results.csv</stringProp>
+          <stringProp name="filename">C:\Users\aterahman\Documents\Performance-Testing\10-users-summary-report.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
@@ -251,7 +251,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">C:\Users\aterahman\Documents\Performance-Testing\Dashboard-getUser-api-results.csv</stringProp>
+          <stringProp name="filename">C:\Users\aterahman\Documents\Performance-Testing\Dashboard-10-users-api-results.csv</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
@@ -403,7 +403,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">C:\Users\aterahman\Documents\Performance-Testing\Dashboard-getUser-api-results.csv</stringProp>
+          <stringProp name="filename">C:\Users\aterahman\Documents\Performance-Testing\Dashboard-25-users-summary-report.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
@@ -440,7 +440,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">C:\Users\aterahman\Documents\Performance-Testing\Dashboard-25-users-api-results.csv</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
